@@ -1,0 +1,12 @@
+@mixin boton ($color-fondo, $color-texto, $width, $height) {
+  text-decoration: none;
+  color: $color-texto;
+  background-color: $color-fondo;
+  width: $width;
+  height: $height;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+
+}
